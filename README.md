@@ -1,9 +1,9 @@
 # e2d
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/criticalstack/e2d)](https://pkg.go.dev/github.com/criticalstack/e2d)
-[![Build Status](https://cloud.drone.io/api/badges/criticalstack/e2d/status.svg)](https://cloud.drone.io/criticalstack/e2d)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/ChrisRx/e2d)](https://pkg.go.dev/github.com/ChrisRx/e2d)
+[![Build Status](https://cloud.drone.io/api/badges/ChrisRx/e2d/status.svg)](https://cloud.drone.io/ChrisRx/e2d)
 
-e2d is a command-line tool for deploying and managing etcd clusters, both in the cloud or on bare-metal. It also includes [e2db](https://github.com/criticalstack/e2d/tree/master/pkg/e2db), an ORM-like abstraction for working with etcd.
+e2d is a command-line tool for deploying and managing etcd clusters, both in the cloud or on bare-metal. It also includes [e2db](https://github.com/ChrisRx/e2d/tree/master/pkg/e2db), an ORM-like abstraction for working with etcd.
 
 ## Table of Contents
 
@@ -47,13 +47,13 @@ e2d is designed to manage highly available etcd clusters in the cloud. It can be
 The easiest way to install:
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/criticalstack/e2d/master/scripts/install.sh | sh
+curl -sSfL https://raw.githubusercontent.com/ChrisRx/e2d/master/scripts/install.sh | sh
 ```
 
-Pre-built binaries are also available in [Releases](https://github.com/criticalstack/e2d/releases/latest). e2d is written in Go so it is also pretty simple to install via go:
+Pre-built binaries are also available in [Releases](https://github.com/ChrisRx/e2d/releases/latest). e2d is written in Go so it is also pretty simple to install via go:
 
 ```sh
-go get github.com/criticalstack/e2d/cmd/e2d
+go get github.com/ChrisRx/e2d/cmd/e2d
 ```
 
 Packages can also be installed from [packagecloud.io](https://packagecloud.io/criticalstack/public) (includes systemd service file).
